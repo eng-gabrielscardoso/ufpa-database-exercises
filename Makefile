@@ -29,3 +29,7 @@ server:
 
 mysql:
 	@$(DOCKER_COMPOSE) exec mysql mysql -u ${DB_USERNAME} --password=${DB_PASSWORD}
+
+evaluate:
+	@$(DOCKER_COMPOSE) exec -T mysql mysql -u ${DB_USERNAME} --password=${DB_PASSWORD} ${DB_DATABASE} < $(file)
+
