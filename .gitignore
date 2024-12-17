@@ -1,0 +1,8 @@
+# Local environment variables
+.env
+
+# Temporary files
+/tmp
+/temp
+*/**/tmp
+*/**/temp
