@@ -18,7 +18,7 @@ Coleção de exercícios feitos durante a disciplina de Bancos de Dados II.
 
 ## Instalação
 
-> Esse projeto foi pensado e desenvolvido para ser executado em ambiente Linux, caso utilizes Windows/MacOS ou qualquer um que seja diferente do ambiente Unix, que pena, é uma boa hora para começar a instalar o Linux ([Cnfigure o Linux Mint para Iniciantes! Tutorial 2024](https://diolinux.com.br/video/linux-mint-para-iniciantes.html)
+> Esse projeto foi pensado e desenvolvido para ser executado em ambiente Linux, caso utilizes Windows/MacOS ou qualquer um que seja diferente do ambiente Unix, que pena, é uma boa hora para começar a instalar o Linux ([Configure o Linux Mint para Iniciantes! Tutorial 2024](https://diolinux.com.br/video/linux-mint-para-iniciantes.html))
 
 > Esse projeto pode ser executado com ou sem a instalação prévia das ferramentas, basta se utilizar dos scripts SQL dispostos no diretório `src`.
 
@@ -32,7 +32,7 @@ Para a instalação local basta se utilizar dos comandos padrão do MySQL para i
 
 ### Docker (recomendado)
 
-Para utilizar o projeto com o Docker, basta ter instalado no seu computador o Docker e também o Docker Compose.
+Para utilizar o projeto com o Docker, basta ter instalado no teu computador o Docker e também o Docker Compose.
 
 Para começar basta rodar o seguinte comando para criar as variáveis de ambiente do projeto (podes customizar caso necessário):
 
@@ -40,7 +40,7 @@ Para começar basta rodar o seguinte comando para criar as variáveis de ambient
 cp .env.example .env
 ```
 
-Rode o comando abaixo para subir o container:
+Roda o comando abaixo para subir o container:
 
 ```sh
 make up
@@ -84,4 +84,4 @@ make evaluate
 
 ## Licença
 
-Esse projeto está licenciado sobre a [MIT Licence](LICENSE).
+Este projeto está licenciado sob a [MIT Licence](LICENSE).
